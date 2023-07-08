@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="boxhead">
+          <h2>Raman's Piano</h2>
+          <h2>Play Piano</h2>
+          <div class="vv">
+            <span class="v">Volume </span>
+            <input
+              class="input"
+              type="range"
+              min="0"
+              max="1"
+              value="0.5"
+              step="any"
+            />
+          </div>
+        </div>
+        <div class="boxmain">
+          <ul class="keys">
+            <li class="key white" data-key="a"><span>a</span></li>
+            <li class="key black" data-key="w"><span>w</span></li>
+            <li class="key white" data-key="s"><span>s</span></li>
+            <li class="key black" data-key="e"><span>e</span></li>
+            <li class="key white" data-key="d"><span>d</span></li>
+            <li class="key white" data-key="f"><span>f</span></li>
+            <li class="key black" data-key="t"><span>t</span></li>
+            <li class="key white" data-key="g"><span>g</span></li>
+            <li class="key black" data-key="y"><span>y</span></li>
+            <li class="key white" data-key="h"><span>h</span></li>
+            <li class="key black" data-key="u"><span>u</span></li>
+            <li class="key white" data-key="j"><span>j</span></li>
+            <li class="key white" data-key="k"><span>k</span></li>
+            <li class="key black" data-key="o"><span>o</span></li>
+            <li class="key white" data-key="l"><span>l</span></li>
+            <li class="key black" data-key="p"><span>p</span></li>
+            <li class="key white" data-key=";"><span>;</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
